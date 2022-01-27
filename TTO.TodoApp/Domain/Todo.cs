@@ -25,7 +25,7 @@ namespace TTO.TodoApp.Domain
         public void Complete()
         {
             if (IsCompleted)
-                throw new Exception("Todo already completed");
+                throw new Exception("Todo already completed!");
 
             IsCompleted = true;
         }
