@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 using FluentAssertions;
 using TTO.TodoApp.Application;
-using TTO.TodoApp.Domain;
 using Xunit;
 
 namespace TTO.TodoApp.Tests.Integration.Application
